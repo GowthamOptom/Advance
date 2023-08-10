@@ -1,0 +1,55 @@
+body {
+    background-image: url('https://www.cisi.org/cisiweb2/image/cop26/qual3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+  }
+.h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+form {
+    background-color: rgb(255, 255, 255, 0.2);
+    height: 260px;
+    width: 200px;
+    position: absolute;
+    top:35%;
+    left: 40%;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 2px;
+    padding: 20px;
+}
+
+.form-group input {
+    width: 100%;   
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.form-group input:hover {
+    background-color: gainsboro
+}
+
+.submit {
+    margin: 0 0 0 60px;
+    color: rgb(226, 232, 232);
+    height: 30px;
+    width: 70px;
+    background-color: #7664a8;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+}
+
+.submit:hover {
+    background-color: #0cbaba;
+}
+.qus .link{
+    font-size: 15px;
+
+}
